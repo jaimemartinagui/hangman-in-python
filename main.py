@@ -5,8 +5,6 @@ from time import sleep
 from operator import setitem
 from itertools import count
 
-import numpy as np
-
 from draw import draw_hangman
 from functions import correct_answer, show_clue, select_random_word, menu
 
