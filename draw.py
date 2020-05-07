@@ -53,4 +53,3 @@ def draw_head(t):
     t.lt(90)
     t.fd(40)
     t.pd()
-

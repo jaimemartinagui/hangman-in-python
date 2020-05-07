@@ -66,4 +66,3 @@ def hangman():
                 sleep(3)
                 turtle.Screen().bye()
                 break
-
