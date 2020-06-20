@@ -8,6 +8,7 @@ from itertools import count
 from draw import DrawHangMan
 from functions import HangManAuxiliarFunctions
 
+
 class HangManGame():
     """Main class of the game."""
 
@@ -74,7 +75,3 @@ class HangManGame():
                     sleep(3)
                     turtle.Screen().bye()
                     break
-
-
-aux = HangManGame()
-aux.hangman()
