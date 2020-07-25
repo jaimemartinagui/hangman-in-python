@@ -17,7 +17,6 @@ class HangManGame():
         self.draw = DrawHangMan()
         self.aux_funcs = HangManAuxiliarFunctions()
 
-
     def hangman(self):
         """Main function of the game."""
 

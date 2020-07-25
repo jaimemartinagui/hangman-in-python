@@ -36,7 +36,6 @@ class DrawHangMan():
             t.rt(120)
             t.fd(70)
 
-
     def _draw_gallow(self, t):
         t.fd(60)
         t.rt(180)
@@ -47,7 +46,6 @@ class DrawHangMan():
         t.fd(70)
         t.rt(90)
         t.fd(30)
-
 
     def _draw_head(self, t):
         t.rt(90)

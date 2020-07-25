@@ -17,12 +17,10 @@ class HangManAuxiliarFunctions():
         print("\n\n       Correcto!!")
         print("\nEnhorabuena! Su puntación final es de {} puntos.\n".format(score + 10))
 
-
     def show_clue(self, lives, score, clue):
         print('\n       Lives:', lives)
         print('       Score:', score)
         print("\n       " + " ".join(clue))
-
 
     def select_random_word(self, filename):
         """Fuction that selects a random word from the txt file."""
@@ -32,7 +30,6 @@ class HangManAuxiliarFunctions():
             words_list = file.read().splitlines()
         rand_idx = np.random.randint(low=0, high=50)
         return words_list[rand_idx]
-
 
     def menu(self):
         """Funcion to show the game instructions."""
